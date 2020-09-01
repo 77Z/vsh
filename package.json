@@ -1,0 +1,20 @@
+{
+  "name": "vsh",
+  "version": "0.1.0",
+  "description": "SSH but in js",
+  "main": "bin/vsh.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vince Richter",
+  "license": "MIT",
+  "bin": {
+    "vsh": "./bin/vsh.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "node-pty": "^0.9.0",
+    "ws": "^7.3.1",
+    "yargs": "^15.4.1"
+  }
+}
